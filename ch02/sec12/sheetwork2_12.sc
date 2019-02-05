@@ -106,7 +106,7 @@ def processo(in: InputStream) {
 
 var in = new URL("http://horstmann.com/cay-tiny.gif").openStream()
                                                   //> in  : java.io.InputStream = sun.net.www.protocol.http.HttpURLConnection$Htt
-                                                  //| pInputStream@76a4ebf2
+                                                  //| pInputStream@6e6f2380
 try {
   processo(in)
 } finally {
@@ -145,10 +145,10 @@ import scala.io._
 //val result =
 //  for (a <- Try { StdIn.readLine("a: ").toInt };
 //      b <- Try { StdIn.readLine("b: ").toInt })
-//      yield a / b                               //> /as
+//      yield a / b
 
 
 
- println("Endlich")
+ println("Endlich")                               //> Endlich\
   
 }
