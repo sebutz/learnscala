@@ -1,3 +1,6 @@
+//parameters of the primary constructor are placed in the class name 
+// turn into fields that are initialized 
+
 class Person1(name: String, age: Int) {
   def description = name + " is " + age + " years old"
 }
