@@ -12,7 +12,7 @@ object sheetwks4_1 {;import org.scalaide.worksheet.runtime.library.WorksheetSupp
   
   
   
-  // mutable map
+  // MUTABLE MAP
   val scores_mutable = scala.collection.mutable.Map("Alice" -> 10, "Nob" -> 23);System.out.println("""scores_mutable  : scala.collection.mutable.Map[String,Int] = """ + $show(scores_mutable ));$skip(163); 
         
         

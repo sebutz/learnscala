@@ -15,7 +15,7 @@ object sheetwks4_1 {
   
   
   
-  // mutable map
+  // MUTABLE MAP
   val scores_mutable = scala.collection.mutable.Map("Alice" -> 10, "Nob" -> 23)
                                                   //> scores_mutable  : scala.collection.mutable.Map[String,Int] = Map(Nob -> 23, 
                                                   //| Alice -> 10)
