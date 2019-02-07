@@ -6,7 +6,7 @@ class Person {
 
 class Employee extends Person {
   var salary = 0.0
-  def description = "An employee with name " + name + " and salary " + salary
+  def description = s"An employee with name  $name and salary $salary"
 
   override def toString: String = description
 }
