@@ -1,3 +1,5 @@
+package main.scala.ch15.sec05;
+
 import java.io.*;
 
 public class BookClient { // This is Java

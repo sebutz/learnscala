@@ -3,7 +3,7 @@
 
 import java.nio.file._
 
-val dirname = ".."
+val dirname = ""
 val entries = Files.walk(Paths.get(dirname)) // or Files.list
 try {
   entries.forEach(p => println(p))

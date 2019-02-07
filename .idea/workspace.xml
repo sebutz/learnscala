@@ -1,0 +1,826 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8f9c2e77-cff4-445e-8fa0-7752cd2a6f89" name="Default Changelist" comment="refactoring for scala project">
+      <change afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/hydra.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learnscala.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/ch01/sec01/AppTester.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch01/sec01/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch01/sec01/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch01/sec01/sheetworks.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch01/sec01/sheetworks.sc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch01/sec02/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch01/sec02/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch01/sec02/sheetworks2.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch01/sec02/sheetworks2.sc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch01/sec03/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch01/sec03/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch01/sec03/sheetworks3.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch01/sec03/sheetworks3.sc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch01/sec04/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch01/sec04/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch01/sec04/sheetworks4.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch01/sec04/sheetworks4.sc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch01/sec05/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch01/sec05/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch01/sec05/sheetworks5.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch01/sec05/sheetworks5.sc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch01/sec06/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch01/sec06/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch01/sec06/sheetworks6.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch01/sec06/sheetworks6.sc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch01/sec07/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch01/sec07/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch02/sec01/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch02/sec01/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch02/sec01/sheetworks2_1.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch02/sec01/sheetworks2_1.sc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch02/sec02/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch02/sec02/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch02/sec02/sheetworks2_2.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch02/sec02/sheetworks2_2.sc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch02/sec03/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch02/sec03/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch02/sec03/sheetwork2_3.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch02/sec03/sheetwork2_3.sc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch02/sec04/WorkObject2_4.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch02/sec04/WorkObject2_4.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch02/sec04/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch02/sec04/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch02/sec04/sheetwork2_4.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch02/sec04/sheetwork2_4.sc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch02/sec05/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch02/sec05/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch02/sec05/sheetwork2_5.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch02/sec05/sheetwork2_5.sc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch02/sec06/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch02/sec06/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch02/sec06/sheetwork2_6.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch02/sec06/sheetwork2_6.sc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch02/sec07/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch02/sec07/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch02/sec07/sheetwork2_7.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch02/sec07/sheetwork2_7.sc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch02/sec08/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch02/sec08/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch02/sec08/sheetwork2_8.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch02/sec08/sheetwork2_8.sc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch02/sec09/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch02/sec09/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch02/sec09/sheetwork2_9.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch02/sec09/sheetwork2_9.sc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch02/sec10/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch02/sec10/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch02/sec10/sheetwork2_10.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch02/sec10/sheetwork2_10.sc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch02/sec11/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch02/sec11/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch02/sec11/sheetwork2_11.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch02/sec11/sheetwork2_11.sc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch02/sec12/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch02/sec12/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch02/sec12/sheetwork2_12.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch02/sec12/sheetwork2_12.sc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch03/sec01/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch03/sec01/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch03/sec01/sheetwork3_1.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch03/sec01/sheetwork3_1.sc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch03/sec02/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch03/sec02/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch03/sec02/sheetwork3_2.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch03/sec02/sheetwork3_2.sc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch03/sec03/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch03/sec03/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch03/sec03/sheetwork3_3.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch03/sec03/sheetwork3_3.sc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch03/sec04/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch03/sec04/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch03/sec04/sheetwork3_4.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch03/sec04/sheetwork3_4.sc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch03/sec05/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch03/sec05/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch03/sec05/sheetwork3_5.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch03/sec05/sheetwork3_5.sc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch03/sec06/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch03/sec06/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch03/sec07/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch03/sec07/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch03/sec07/sheetwork3_7.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch03/sec07/sheetwork3_7.sc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch03/sec08/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch03/sec08/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch03/sec08/sheetwork3_8.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch03/sec08/sheetwork3_8.sc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch04/sec01/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch04/sec01/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch04/sec01/sheetwks4_1.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch04/sec01/sheetwks4_1.sc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch04/sec02/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch04/sec02/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch04/sec02/sheetwks4_2.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch04/sec02/sheetwks4_2.sc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch04/sec03/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch04/sec03/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch04/sec03/sheetwks4_3.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch04/sec03/sheetwks4_3.sc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch04/sec04/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch04/sec04/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch04/sec04/sheetwks4_4.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch04/sec04/sheetwks4_4.sc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch04/sec05/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch04/sec05/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch04/sec05/sheetwks4_5.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch04/sec05/sheetwks4_5.sc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch04/sec06/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch04/sec06/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch04/sec06/sheetwks4_6.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch04/sec06/sheetwks4_6.sc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch04/sec07/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch04/sec07/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch04/sec07/sheetwks4_7.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch04/sec07/sheetwks4_7.sc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch04/sec08/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch04/sec08/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch04/sec08/sheetwks4_8.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch04/sec08/sheetwks4_8.sc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch05/sec01/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch05/sec01/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch05/sec01/sheetwks5_1.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch05/sec01/sheetwks5_1.sc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch05/sec02/Person.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch05/sec02/Person.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch05/sec02/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch05/sec02/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch05/sec02/sheetwks5_2.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch05/sec02/sheetwks5_2.sc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch05/sec03/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch05/sec03/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch05/sec03/sheetwks5_3.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch05/sec03/sheetwks5_3.sc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch05/sec04/learnscala/TestApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch05/sec04/learnscala/TestApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch05/sec04/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch05/sec04/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch05/sec04/sheetwork5_4.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch05/sec04/sheetwork5_4.sc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch05/sec05/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch05/sec05/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch05/sec05/sheetwks5_5.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch05/sec05/sheetwks5_5.sc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch05/sec06/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch05/sec06/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch05/sec06/sheetwks5_6.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch05/sec06/sheetwks5_6.sc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch05/sec07/Person1.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch05/sec07/Person1.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch05/sec07/Person2.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch05/sec07/Person2.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch05/sec07/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch05/sec07/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch05/sec07/sheetwks5_7.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch05/sec07/sheetwks5_7.sc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch05/sec07/sheetwks5_7_bis.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch05/sec07/sheetwks5_7_bis.sc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch05/sec08/Network.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch05/sec08/Network.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch05/sec08/Network2.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch05/sec08/Network2.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch05/sec08/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch05/sec08/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch05/sec08/sheetwks5_8.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch05/sec08/sheetwks5_8.sc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch06/sec01/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch06/sec01/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch06/sec01/sheetwks6_1.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch06/sec01/sheetwks6_1.sc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch06/sec02/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch06/sec02/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch06/sec02/sheetworks6_2.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch06/sec02/sheetworks6_2.sc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch06/sec03/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch06/sec03/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch06/sec03/sheetwks6_3.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch06/sec03/sheetwks6_3.sc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch06/sec04/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch06/sec04/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch06/sec04/sheetwks6_4.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch06/sec04/sheetwks6_4.sc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch06/sec05/Hello.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch06/sec05/Hello.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch06/sec05/Hello1.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch06/sec05/Hello1.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch06/sec05/Hello2.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch06/sec05/Hello2.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch06/sec06/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch06/sec06/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch06/sec06/sheetwks6_6.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch06/sec06/sheetwks6_6.sc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch07/sec01/Employee.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch07/sec01/Employee.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch07/sec01/Manager.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch07/sec01/Manager.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch07/sec02/Employee.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch07/sec02/Employee.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch07/sec02/Manager.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch07/sec02/Manager.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch07/sec02/Other.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch07/sec02/Other.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch07/sec03/Person.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch07/sec03/Person.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch07/sec04/Car.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch07/sec04/Car.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch07/sec04/Person.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch07/sec04/Person.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch07/sec05/Person.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch07/sec05/Person.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch07/sec06/Person.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch07/sec06/Person.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch07/sec07/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch07/sec07/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch07/sec08/Manager.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch07/sec08/Manager.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch07/sec09/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch07/sec09/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch07/sec10/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch07/sec10/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch08/sec01/Employee.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch08/sec01/Employee.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch08/sec02/Employee.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch08/sec02/Employee.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch08/sec03/Employee.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch08/sec03/Employee.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch08/sec04/Manager.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch08/sec04/Manager.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch08/sec05/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch08/sec05/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch08/sec06/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch08/sec06/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch08/sec07/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch08/sec07/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch08/sec08/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch08/sec08/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch08/sec09/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch08/sec09/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch08/sec10/Creature.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch08/sec10/Creature.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch08/sec11/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch08/sec11/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch08/sec12/Item.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch08/sec12/Item.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch08/sec13/Time.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch08/sec13/Time.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch09/sec01/mary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch09/sec01/mary.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch09/sec01/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch09/sec01/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch09/sec02/mary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch09/sec02/mary.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch09/sec02/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch09/sec02/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch09/sec03/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch09/sec03/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch09/sec03/values.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch09/sec03/values.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch09/sec04/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch09/sec04/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch09/sec05/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch09/sec05/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch09/sec05/repl-session.zip" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch09/sec05/repl-session.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch09/sec06/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch09/sec06/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch09/sec07/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch09/sec07/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch09/sec08/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch09/sec08/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch09/sec08/test.obj" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch09/sec08/test.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch09/sec09/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch09/sec09/output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch09/sec09/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch09/sec09/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch09/sec10/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch09/sec10/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch09/sec11/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch09/sec11/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch10/sec02/Logger.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch10/sec02/Logger.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch10/sec03/Logger.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch10/sec03/Logger.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch10/sec04/Logger.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch10/sec04/Logger.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch10/sec05/Logger.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch10/sec05/Logger.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch10/sec06/Logger.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch10/sec06/Logger.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch10/sec07/Logger.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch10/sec07/Logger.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch10/sec08/Logger.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch10/sec08/Logger.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch10/sec09/Logger.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch10/sec09/Logger.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch10/sec10/Logger.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch10/sec10/Logger.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch10/sec11/Logger.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch10/sec11/Logger.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch10/sec12/Logger.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch10/sec12/Logger.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch10/sec13/Logger.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch10/sec13/Logger.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch10/sec14/Logger.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch10/sec14/Logger.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch11/sec01/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch11/sec01/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch11/sec02/Fraction.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch11/sec02/Fraction.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch11/sec02/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch11/sec02/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch11/sec03/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch11/sec03/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch11/sec04/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch11/sec04/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch11/sec05/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch11/sec05/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch11/sec06/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch11/sec06/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch11/sec07/Fraction.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch11/sec07/Fraction.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch11/sec07/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch11/sec07/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch11/sec08/Fraction.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch11/sec08/Fraction.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch11/sec08/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch11/sec08/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch11/sec09/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch11/sec09/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch11/sec10/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch11/sec10/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch11/sec11/DynamicProps.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch11/sec11/DynamicProps.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch12/sec01/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch12/sec01/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch12/sec02/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch12/sec02/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch12/sec03/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch12/sec03/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch12/sec04/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch12/sec04/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch12/sec05/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch12/sec05/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch12/sec06/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch12/sec06/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch12/sec07/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch12/sec07/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch12/sec08/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch12/sec08/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch12/sec09/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch12/sec09/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch12/sec10/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch12/sec10/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch13/sec01/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch13/sec01/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch13/sec02/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch13/sec02/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch13/sec03/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch13/sec03/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch13/sec04/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch13/sec04/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch13/sec05/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch13/sec05/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch13/sec06/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch13/sec06/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch13/sec07/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch13/sec07/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch13/sec08/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch13/sec08/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch13/sec09/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch13/sec09/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch13/sec10/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch13/sec10/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch13/sec11/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch13/sec11/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch13/sec12/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch13/sec12/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch13/sec13/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch13/sec13/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch13/sec14/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch13/sec14/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch13/sec15/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch13/sec15/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch14/sec01/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch14/sec01/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch14/sec02/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch14/sec02/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch14/sec03/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch14/sec03/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch14/sec04/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch14/sec04/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch14/sec05/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch14/sec05/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch14/sec06/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch14/sec06/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch14/sec07/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch14/sec07/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch14/sec08/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch14/sec08/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch14/sec09/Currency.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch14/sec09/Currency.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch14/sec10/Currency.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch14/sec10/Currency.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch14/sec11/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch14/sec11/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch14/sec12/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch14/sec12/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch14/sec13/List.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch14/sec13/List.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch14/sec13/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch14/sec13/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch14/sec14/Amount.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch14/sec14/Amount.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch14/sec14/Euro.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch14/sec14/Euro.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch14/sec15/TrafficLightColor.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch14/sec15/TrafficLightColor.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch14/sec16/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch14/sec16/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch14/sec17/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch14/sec17/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch15/sec01/Credentials.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch15/sec01/Credentials.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch15/sec01/MyTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch15/sec01/MyTest.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch15/sec02/Misc.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch15/sec02/Misc.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch15/sec03/Misc.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch15/sec03/Misc.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch15/sec04/Credentials.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch15/sec04/Credentials.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch15/sec05/Book.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch15/sec05/Book.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch15/sec05/BookClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch15/sec05/BookClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch15/sec05/Employee.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch15/sec05/Employee.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch15/sec05/Fred.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch15/sec05/Fred.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch15/sec05/Person.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch15/sec05/Person.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch15/sec05/Processor.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch15/sec05/Processor.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch15/sec05/ProcessorClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch15/sec05/ProcessorClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch15/sec05/war-and-peace.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch15/sec05/war-and-peace.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch15/sec06/Misc.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch15/sec06/Misc.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch15/sec06/TailCallDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch15/sec06/TailCallDemo.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch15/sec06/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch15/sec06/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch15/sec07/Misc.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch15/sec07/Misc.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch16/sec01/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch16/sec01/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch16/sec02/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch16/sec02/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch16/sec03/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch16/sec03/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch16/sec04/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch16/sec04/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch16/sec05/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch16/sec05/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch16/sec06/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch16/sec06/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch16/sec07/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch16/sec07/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch16/sec08/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch16/sec08/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch16/sec09/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch16/sec09/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch16/sec10/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch16/sec10/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch16/sec11/Catalog.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch16/sec11/Catalog.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch16/sec11/myfile.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch16/sec11/myfile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch16/sec11/myfile.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch16/sec11/myfile.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch16/sec11/myfile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch16/sec11/myfile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch16/sec11/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch16/sec11/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch16/sec12/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch16/sec12/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch16/sec12/sample.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch16/sec12/sample.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch17/sec01/Futures.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch17/sec01/Futures.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch17/sec02/Futures.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch17/sec02/Futures.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch17/sec03/Futures.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch17/sec03/Futures.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch17/sec04/Futures.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch17/sec04/Futures.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch17/sec05/Futures1.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch17/sec05/Futures1.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch17/sec05/Futures2.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch17/sec05/Futures2.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch17/sec05/Futures3.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch17/sec05/Futures3.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch17/sec05/Futures4.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch17/sec05/Futures4.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch17/sec05/Futures5.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch17/sec05/Futures5.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch17/sec05/Futures6.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch17/sec05/Futures6.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch17/sec05/Try1.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch17/sec05/Try1.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch17/sec06/Futures.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch17/sec06/Futures.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch17/sec07/Futures.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch17/sec07/Futures.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch17/sec08/sec07/Promises.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch17/sec08/sec07/Promises.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch17/sec09/Futures1.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch17/sec09/Futures1.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch17/sec09/Futures2.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch17/sec09/Futures2.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch18/sec01/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch18/sec01/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch18/sec02/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch18/sec02/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch18/sec03/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch18/sec03/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch18/sec04/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch18/sec04/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch18/sec05/Appender.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch18/sec05/Appender.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch18/sec05/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch18/sec05/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch18/sec06/Compound.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch18/sec06/Compound.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch18/sec06/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch18/sec06/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch18/sec08/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch18/sec08/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch18/sec09/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch18/sec09/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch18/sec10/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch18/sec10/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch18/sec11/List.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch18/sec11/List.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch18/sec12/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch18/sec12/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch19/sec01/Document.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch19/sec01/Document.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch19/sec01/Document2.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch19/sec01/Document2.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch19/sec02/Network.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch19/sec02/Network.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch19/sec04/Book.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch19/sec04/Book.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch19/sec05/Appender.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch19/sec05/Appender.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch19/sec06/Compound.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch19/sec06/Compound.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch19/sec06/image.ser" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch19/sec06/image.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch19/sec07/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch19/sec07/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch19/sec08/Network.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch19/sec08/Network.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch19/sec09/Ones.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch19/sec09/Ones.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch19/sec09/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch19/sec09/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch19/sec10/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch19/sec10/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch19/sec11/CakePattern.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch19/sec11/CakePattern.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch19/sec11/users.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch19/sec11/users.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch19/sec12/Listener.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch19/sec12/Listener.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch19/sec12/Reader.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch19/sec12/Reader.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch19/sec12/Reader2.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch19/sec12/Reader2.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch19/sec12/Reader3.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch19/sec12/Reader3.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch19/sec13/Listeners1.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch19/sec13/Listeners1.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch19/sec13/Listeners2.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch19/sec13/Listeners2.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch19/sec13/Listeners3.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch19/sec13/Listeners3.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch19/sec14/Buffer.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch19/sec14/Buffer.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch20/sec02/ExprParser.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch20/sec02/ExprParser.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch20/sec03/ExprParser.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch20/sec03/ExprParser.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch20/sec04/ExprParser.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch20/sec04/ExprParser.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch20/sec05/ExprParser.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch20/sec05/ExprParser.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch20/sec06/ExprParser.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch20/sec06/ExprParser.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch20/sec06/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch20/sec06/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch20/sec07/ExprParser.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch20/sec07/ExprParser.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch20/sec07/MiscParser.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch20/sec07/MiscParser.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch20/sec08/ExprParser.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch20/sec08/ExprParser.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch20/sec09/Ones.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch20/sec09/Ones.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch20/sec12/ExprParser.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch20/sec12/ExprParser.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch20/sec12/MyParser.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch20/sec12/MyParser.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch20/sec13/MyParser.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch20/sec13/MyParser.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch21/sec01/Fraction.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch21/sec01/Fraction.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch21/sec02/RichFile.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch21/sec02/RichFile.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch21/sec02/RichFile2.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch21/sec02/RichFile2.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch21/sec03/Fraction.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch21/sec03/Fraction.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch21/sec04/Fraction.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch21/sec04/Fraction.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch21/sec04/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch21/sec04/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch21/sec05/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch21/sec05/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch21/sec06/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch21/sec06/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch21/sec07/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch21/sec07/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch21/sec08/NumberLike.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch21/sec08/NumberLike.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch21/sec09/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch21/sec09/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch21/sec10/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch21/sec10/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch21/sec11/Buffer.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch21/sec11/Buffer.scala" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-658733279">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Eclipse" value="2" />
+          <entry key="Git file" value="1" />
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="Scala" value="4" />
+          <entry key="XML" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="44" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/ch01/sec01/AppTester.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.classpath">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.project">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/learnscala.iml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/hydra.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.idea/sbt.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="modificationStamps">
+      <map>
+        <entry key="$USER_HOME$/dig bata/rapidminer/rapidminer-studio-master" value="1494385790000" />
+      </map>
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$USER_HOME$/Documents/Backups/vw-product-etl" value="PREVIEW" />
+        <entry key="$USER_HOME$/Downloads/Spring-Boot-2.0-Cookbook-Second-Edition-master" value="PREVIEW" />
+        <entry key="$USER_HOME$/Downloads/Spring-Boot-2.0-Cookbook-Second-Edition-master/Chapter06/ch6" value="PREVIEW" />
+        <entry key="$USER_HOME$/Downloads/Spring-Boot-2.0-Cookbook-Second-Edition-master/Chapter09/ch9" value="PREVIEW" />
+        <entry key="$USER_HOME$/Downloads/feign-master" value="PREVIEW" />
+        <entry key="$USER_HOME$/Downloads/java_8_recipes-master" value="PREVIEW" />
+        <entry key="$USER_HOME$/Downloads/mastering-junit5-master/junit5-wiremock" value="PREVIEW" />
+        <entry key="$USER_HOME$/apis/localization-finder-master" value="PREVIEW" />
+        <entry key="$USER_HOME$/code_reviews/vw-cc-broker-consumer-library" value="PREVIEW" />
+        <entry key="$USER_HOME$/mongo/spring5-mongo-recipe-app-master" value="PREVIEW" />
+        <entry key="$USER_HOME$/mongo/spring5-reactive-mongo-recipe-app-master" value="PREVIEW" />
+        <entry key="$USER_HOME$/mongo/springboot-mvc-data-mongodb-master" value="PREVIEW" />
+        <entry key="$USER_HOME$/mulesoft/vw-product-api2" value="PREVIEW" />
+        <entry key="$USER_HOME$/newprojects/vw-offers-api" value="PREVIEW" />
+        <entry key="$USER_HOME$/pdmsource/vw-product-etl-model-processor" value="PREVIEW" />
+        <entry key="$USER_HOME$/project/vw-configurator-api2" value="PREVIEW" />
+        <entry key="$USER_HOME$/project/vw-product-api2" value="PREVIEW" />
+        <entry key="$USER_HOME$/project/vw-product-etl" value="PREVIEW" />
+        <entry key="$USER_HOME$/project/vw-product-etl-data-validator" value="PREVIEW" />
+        <entry key="$USER_HOME$/project/vw-product-etl-model-processor" value="PREVIEW" />
+        <entry key="$USER_HOME$/project/vw-product-etl-trim-processor" value="PREVIEW" />
+        <entry key="$USER_HOME$/project/vw-product-etl/vw-product-etl-car-data-archive-player" value="PREVIEW" />
+        <entry key="$USER_HOME$/project/vw-retailer-api" value="PREVIEW" />
+        <entry key="$USER_HOME$/project/vw-rms-api" value="PREVIEW" />
+        <entry key="$USER_HOME$/project_bak/vw-retailer-api" value="PREVIEW" />
+        <entry key="$USER_HOME$/projecto/vw-retailer-api" value="PREVIEW" />
+        <entry key="$USER_HOME$/projects/vw/service/vw-retailer-api" value="PREVIEW" />
+        <entry key="$USER_HOME$/projects/vw/service/vw-user-api" value="PREVIEW" />
+        <entry key="$USER_HOME$/projects/vw/ums/vw-rcms-ums" value="PREVIEW" />
+        <entry key="$USER_HOME$/projectsold/vw-retailer-api" value="PREVIEW" />
+        <entry key="$USER_HOME$/sofaboot/vw-product-api2" value="PREVIEW" />
+        <entry key="$USER_HOME$/sofaothers/vw-product-api2" value="PREVIEW" />
+        <entry key="$USER_HOME$/springalternative/vw-configurator-api2" value="PREVIEW" />
+        <entry key="$USER_HOME$/springgg/vw-configurator-api2" value="PREVIEW" />
+        <entry key="$USER_HOME$/springk/vw-agent" value="PREVIEW" />
+        <entry key="$USER_HOME$/springkampf/vw-agent" value="PREVIEW" />
+        <entry key="$USER_HOME$/springkampf/vw-cc-broker-consumer-library" value="PREVIEW" />
+        <entry key="$USER_HOME$/springkampf/vw-configurator-api2" value="PREVIEW" />
+        <entry key="$USER_HOME$/springkampf/vw-product-etl" value="PREVIEW" />
+        <entry key="$USER_HOME$/springkampf/vw-product-etl-model-processor" value="PREVIEW" />
+        <entry key="$USER_HOME$/springkampf2/vw-configurator-api2" value="PREVIEW" />
+        <entry key="$USER_HOME$/springmein2/vw-agent" value="PREVIEW" />
+        <entry key="$USER_HOME$/springmein3/vw-agent" value="PREVIEW" />
+        <entry key="$USER_HOME$/springmein4/vw-agent" value="PREVIEW" />
+        <entry key="$USER_HOME$/springmein4/vw-configurator-api2" value="PREVIEW" />
+        <entry key="$USER_HOME$/springspike/spring-state-machine" value="PREVIEW" />
+        <entry key="$USER_HOME$/springspike/spring-statemachine-1.2.8.RELEASE" value="PREVIEW" />
+        <entry key="$USER_HOME$/springspike/spring-statemachine-1.2.x" value="PREVIEW" />
+        <entry key="$USER_HOME$/springspike/spring-statemachine-master" value="PREVIEW" />
+        <entry key="$USER_HOME$/springsummer" value="PREVIEW" />
+        <entry key="$USER_HOME$/springsummer/vw-configurator-api2" value="PREVIEW" />
+        <entry key="$USER_HOME$/springwip/vw-configurator-api2" value="PREVIEW" />
+        <entry key="$USER_HOME$/springwizard/vw-configurator-api2" value="PREVIEW" />
+        <entry key="$USER_HOME$/springworks/vw-cc-broker-consumer-library" value="PREVIEW" />
+        <entry key="$USER_HOME$/springworks/vw-configurator-api2" value="PREVIEW" />
+        <entry key="$USER_HOME$/springworks/vw-product-api2" value="PREVIEW" />
+        <entry key="$USER_HOME$/springworkz/vw-configurator-api2" value="PREVIEW" />
+        <entry key="$USER_HOME$/springworkz/vw-product-etl-data-validator" value="PREVIEW" />
+        <entry key="$USER_HOME$/springy/vw-configurator-api2" value="PREVIEW" />
+        <entry key="$USER_HOME$/springzwip2/vw-configurator-api2" value="PREVIEW" />
+        <entry key="$USER_HOME$/testproject/vw-part-exchange-api" value="PREVIEW" />
+        <entry key="$USER_HOME$/testproject/vw-retailer-api" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="23" />
+    <option name="width" value="1920" />
+    <option name="height" value="1014" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <autoscrollFromSource ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549554230848" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="copyright.filetypes.JAVA" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/scala" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.AppTester">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTester" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="AppTester" />
+      <module name="learnscala" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="learnscala" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.AppTester" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AppTester" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$USER_HOME$/Documents/scalaprojects/scalazen" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8f9c2e77-cff4-445e-8fa0-7752cd2a6f89" name="Default Changelist" comment="" />
+      <created>1549552530604</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1549552530604</updated>
+      <workItem from="1549552537562" duration="527000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="527000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1920" height="1011" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Capture Tool" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25452608" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" />
+      <window_info anchor="bottom" id="SBT Console" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Regex Tester" />
+      <window_info anchor="bottom" id="SBT Execute" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32924107" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Maven-2 Build" />
+      <window_info anchor="right" id="JSON Viewer" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="JSON Utils" />
+      <window_info anchor="right" id="Mongo Explorer" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Json Parser" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="right" id="ReST Console" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Jenkins" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="refactoring for scala project" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactoring for scala project" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/sec01/repl-session.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/sec01/AppTester.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch08/sec01/Employee.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch01/sec01/AppTester.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.classpath">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.project">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learnscala.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/hydra.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/sbt.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.20083682" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

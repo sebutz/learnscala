@@ -1,4 +1,4 @@
-package learnscala;
+package main.scala.ch05.sec04.learnscala;
 
 class Counteri{
 	private int value = 0;
