@@ -2,118 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f9c2e77-cff4-445e-8fa0-7752cd2a6f89" name="Default Changelist" comment="refactoring for scala project">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learnscala/AppTester$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learnscala/AppTester$delayedInit$body.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learnscala/AppTester.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch06/sec05/Hello1.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch06/sec05/Hello1.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch06/sec05/Hello2.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch06/sec05/Hello2.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch07/sec07/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch07/sec07/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch07/sec09/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch07/sec09/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch07/sec10/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch07/sec10/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch08/sec01/Employee.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch08/sec01/Employee.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch08/sec02/Employee.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch08/sec02/Employee.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch08/sec03/Employee.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch08/sec03/Employee.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch08/sec04/Manager.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch08/sec04/Manager.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch08/sec05/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch08/sec05/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch08/sec06/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch08/sec06/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch08/sec07/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch08/sec07/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch08/sec08/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch08/sec08/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch08/sec09/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch08/sec09/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learnscala/main/scala/ch09/sec01/mary.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learnscala/main/scala/ch09/sec02/mary.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learnscala/main/scala/ch09/sec03/values.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learnscala/main/scala/ch09/sec05/repl-session.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learnscala/main/scala/ch09/sec08/test.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learnscala/main/scala/ch09/sec09/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learnscala/main/scala/ch15/sec05/war-and-peace.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learnscala/main/scala/ch16/sec11/myfile.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learnscala/main/scala/ch16/sec11/myfile.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learnscala/main/scala/ch16/sec11/myfile.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learnscala/main/scala/ch16/sec12/sample.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learnscala/main/scala/ch19/sec06/image.ser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learnscala/main/scala/ch19/sec11/users.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/ch08/sec10/Creature.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch08/sec10/Creature.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch08/sec11/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch08/sec11/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch09/sec01/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch09/sec01/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch09/sec02/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch09/sec02/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch09/sec03/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch09/sec03/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch09/sec04/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch09/sec04/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch09/sec05/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch09/sec05/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch09/sec06/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch09/sec06/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch09/sec07/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch09/sec07/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch09/sec08/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch09/sec08/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch09/sec09/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch09/sec09/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch09/sec10/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch09/sec10/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch09/sec11/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch09/sec11/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch11/sec01/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch11/sec01/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch11/sec02/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch11/sec02/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch11/sec03/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch11/sec03/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch11/sec04/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch11/sec04/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch11/sec05/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch11/sec05/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch11/sec06/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch11/sec06/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch11/sec07/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch11/sec07/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch11/sec08/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch11/sec08/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch11/sec09/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch11/sec09/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch11/sec10/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch11/sec10/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch12/sec01/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch12/sec01/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch12/sec02/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch12/sec02/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch12/sec03/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch12/sec03/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch12/sec04/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch12/sec04/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch12/sec05/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch12/sec05/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch12/sec06/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch12/sec06/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch12/sec07/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch12/sec07/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch12/sec08/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch12/sec08/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch12/sec09/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch12/sec09/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch12/sec10/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch12/sec10/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch13/sec01/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch13/sec01/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch13/sec02/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch13/sec02/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch13/sec03/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch13/sec03/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch13/sec04/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch13/sec04/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch13/sec05/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch13/sec05/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch13/sec06/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch13/sec06/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch13/sec07/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch13/sec07/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch13/sec08/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch13/sec08/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch13/sec09/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch13/sec09/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch13/sec10/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch13/sec10/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch13/sec11/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch13/sec11/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch13/sec12/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch13/sec12/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch13/sec13/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch13/sec13/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch13/sec14/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch13/sec14/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch13/sec15/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch13/sec15/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch14/sec01/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch14/sec01/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch14/sec02/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch14/sec02/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch14/sec03/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch14/sec03/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch14/sec04/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch14/sec04/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch14/sec05/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch14/sec05/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch14/sec06/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch14/sec06/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch14/sec07/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch14/sec07/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch14/sec08/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch14/sec08/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch14/sec11/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch14/sec11/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch14/sec12/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch14/sec12/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch14/sec16/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch14/sec16/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch14/sec17/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch14/sec17/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch15/sec06/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch15/sec06/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch16/sec01/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch16/sec01/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch16/sec02/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch16/sec02/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch16/sec03/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch16/sec03/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch16/sec04/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch16/sec04/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch16/sec05/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch16/sec05/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch16/sec06/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch16/sec06/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch16/sec07/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch16/sec07/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch16/sec08/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch16/sec08/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch16/sec09/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch16/sec09/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch16/sec10/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch16/sec10/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch16/sec11/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch16/sec11/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch16/sec12/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch16/sec12/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch17/sec06/Futures.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch17/sec06/Futures.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch18/sec01/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch18/sec01/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch18/sec02/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch18/sec02/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch18/sec03/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch18/sec03/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch18/sec04/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch18/sec04/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch18/sec05/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch18/sec05/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch18/sec06/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch18/sec06/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch18/sec08/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch18/sec08/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch18/sec09/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch18/sec09/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch18/sec10/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch18/sec10/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch18/sec12/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch18/sec12/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch19/sec07/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch19/sec07/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch19/sec09/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch19/sec09/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch19/sec10/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch19/sec10/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch20/sec06/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch20/sec06/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch21/sec04/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch21/sec04/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch21/sec05/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch21/sec05/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch21/sec06/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch21/sec06/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch21/sec07/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch21/sec07/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch21/sec09/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch21/sec09/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch21/sec10/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch21/sec10/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch08/sec13/Time.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch08/sec13/Time.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -133,17 +38,18 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Eclipse" value="2" />
-          <entry key="Git file" value="1" />
+          <entry key="Git file" value="2" />
           <entry key="IDEA_MODULE" value="1" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Scala" value="126" />
+          <entry key="Scala" value="131" />
           <entry key="XML" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="Git file" value="16" />
           <entry key="PLAIN_TEXT" value="44" />
-          <entry key="Scala" value="157" />
+          <entry key="Scala" value="230" />
         </counts>
       </usages-collector>
     </session>
@@ -155,6 +61,24 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="342">
               <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/ch08/sec13/Time.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -186,32 +110,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/ch08/sec10/Creature.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/ch17/sec06/Futures.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="40" lean-forward="true" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
-              <folding>
-                <element signature="e#1#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/ch06/sec05/Hello1.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="231">
+              <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -302,10 +205,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/scala/ch13/sec13/repl-session.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/ch13/sec12/repl-session.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/ch13/sec11/repl-session.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/ch13/sec10/repl-session.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/ch13/sec09/repl-session.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/ch13/sec08/repl-session.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/ch13/sec07/repl-session.scala" />
@@ -352,7 +251,11 @@
         <option value="$PROJECT_DIR$/src/main/scala/ch06/sec05/Hello2.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/ch08/sec03/Employee.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/ch08/sec04/Manager.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ch07/sec02/Manager.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ch10/sec08/Logger.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ch08/sec13/Time.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/ch08/sec10/Creature.scala" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -475,944 +378,20 @@
               <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
               <item name="learnscala" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec02" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec02" type="462c0819:PsiDirectoryNode" />
-              <item name="Employee.scala" type="6117b065:FileNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec03" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec04" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec07" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec08" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec09" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="sec10" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
               <item name="learnscala" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec11" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec12" type="462c0819:PsiDirectoryNode" />
+              <item name="sec10" type="462c0819:PsiDirectoryNode" />
+              <item name="Creature.scala" type="6117b065:FileNode" />
             </path>
             <path>
               <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
               <item name="learnscala" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="sec13" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec01" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec02" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec03" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec04" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec05" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec06" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec07" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec08" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec09" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec10" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec11" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec02" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec03" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec04" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec05" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec06" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec07" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec08" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec09" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec10" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec11" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec12" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec13" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec14" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec01" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec02" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec03" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec04" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec05" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec06" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec07" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec08" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec09" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec10" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec11" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec01" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec02" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec03" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec04" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec05" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec06" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec07" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec08" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec09" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec10" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec01" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec03" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec04" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec05" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec06" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec07" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec08" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec09" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec10" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec11" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec12" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec13" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec15" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec01" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec02" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec03" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec04" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec05" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec06" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec07" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec08" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec09" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec10" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec11" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec12" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec13" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec14" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec15" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec16" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec17" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec01" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec02" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec03" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec04" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec05" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec06" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec07" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec01" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec02" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec03" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec05" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec06" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec07" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec08" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec09" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec10" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec12" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec01" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec02" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec03" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec04" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec05" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec06" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec07" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec07" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec09" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec01" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec02" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec03" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec04" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec05" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec06" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec08" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec09" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec10" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec11" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec12" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec01" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec02" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec04" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec05" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec06" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec07" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec08" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec09" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec10" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec11" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec12" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec13" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec14" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec02" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec03" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec04" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec05" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec06" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec07" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec08" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec09" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec12" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec13" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec01" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec02" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec03" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec04" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec05" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec06" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec07" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec08" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec09" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec10" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec11" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
@@ -1440,7 +419,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549555699454" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549556176710" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -1577,12 +556,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1549552530604</updated>
-      <workItem from="1549552537562" duration="1878000" />
+      <workItem from="1549552537562" duration="2339000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1878000" />
+    <option name="totallyTimeSpent" value="2339000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="23" width="1920" height="1011" extended-state="6" />
@@ -1593,7 +572,7 @@
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Capture Tool" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2539936" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2539936" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="FindBugs-IDEA" />
       <window_info anchor="bottom" id="SBT Console" />
@@ -1603,10 +582,10 @@
       <window_info anchor="bottom" id="SBT Execute" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.32924107" />
+      <window_info anchor="bottom" id="Messages" weight="0.32924107" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32924107" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32924107" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1640,66 +619,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="refactoring for scala project" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ch13/sec09/repl-session.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="19" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ch13/sec08/repl-session.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="19" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ch13/sec07/repl-session.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="76" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ch13/sec06/repl-session.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="23" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ch13/sec05/repl-session.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="23" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ch13/sec04/repl-session.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="24" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/ch13/sec03/repl-session.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -2079,13 +998,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/scala/ch08/sec02/Employee.scala">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ch08/sec01/Employee.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/ch06/sec05/Hello2.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -2107,10 +1019,59 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch07/sec02/Manager.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch10/sec08/Logger.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="3" selection-start-column="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch07/sec02/Employee.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch07/sec04/Person.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="3" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch08/sec13/Time.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/ch08/sec10/Creature.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+        <state relative-caret-position="231">
+          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch08/sec01/Employee.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
         </state>
       </provider>
     </entry>
