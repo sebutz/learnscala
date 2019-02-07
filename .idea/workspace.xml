@@ -1,25 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8f9c2e77-cff4-445e-8fa0-7752cd2a6f89" name="Default Changelist" comment="refactoring for scala project">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learnscala/main/scala/ch09/sec01/mary.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learnscala/main/scala/ch09/sec02/mary.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learnscala/main/scala/ch09/sec03/values.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learnscala/main/scala/ch09/sec05/repl-session.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learnscala/main/scala/ch09/sec08/test.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learnscala/main/scala/ch09/sec09/output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learnscala/main/scala/ch15/sec05/war-and-peace.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learnscala/main/scala/ch16/sec11/myfile.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learnscala/main/scala/ch16/sec11/myfile.xhtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learnscala/main/scala/ch16/sec11/myfile.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learnscala/main/scala/ch16/sec12/sample.xhtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learnscala/main/scala/ch19/sec06/image.ser" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learnscala/main/scala/ch19/sec11/users.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch08/sec10/Creature.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch08/sec10/Creature.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch08/sec13/Time.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch08/sec13/Time.scala" afterDir="false" />
-    </list>
+    <list default="true" id="8f9c2e77-cff4-445e-8fa0-7752cd2a6f89" name="Default Changelist" comment="refactoring for scala project" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,13 +23,13 @@
           <entry key="Git file" value="2" />
           <entry key="IDEA_MODULE" value="1" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Scala" value="131" />
+          <entry key="Scala" value="134" />
           <entry key="XML" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Git file" value="16" />
+          <entry key="Git file" value="17" />
           <entry key="PLAIN_TEXT" value="44" />
           <entry key="Scala" value="230" />
         </counts>
@@ -56,20 +38,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/ch08/sec01/Employee.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="396">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+            <state relative-caret-position="-101">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/ch01/sec01/repl-session.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-7">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/ch01/sec01/AppTester.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-7">
+              <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/ch08/sec08/repl-session.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-7">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -77,8 +90,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/ch08/sec13/Time.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+            <state relative-caret-position="-7">
+              <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -86,8 +99,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/ch06/sec05/Hello2.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="-7">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -95,7 +108,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/ch08/sec03/Employee.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
+            <state relative-caret-position="-7">
               <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
             </state>
           </provider>
@@ -104,7 +117,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/ch08/sec04/Manager.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="-7">
               <caret column="18" selection-start-column="18" selection-end-column="18" />
             </state>
           </provider>
@@ -113,15 +126,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/ch08/sec10/Creature.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
+            <state relative-caret-position="-7">
               <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/ch08/sec02/Employee.scala">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -371,21 +379,7 @@
               <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
               <item name="learnscala" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec01" type="462c0819:PsiDirectoryNode" />
-              <item name="Employee.scala" type="6117b065:FileNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec10" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sec10" type="462c0819:PsiDirectoryNode" />
-              <item name="Creature.scala" type="6117b065:FileNode" />
+              <item name="sec08" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
@@ -419,13 +413,13 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549556176710" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549556477602" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="copyright.filetypes.JAVA" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -556,16 +550,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1549552530604</updated>
-      <workItem from="1549552537562" duration="2339000" />
+      <workItem from="1549552537562" duration="2497000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2339000" />
+    <option name="totallyTimeSpent" value="2497000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="23" width="1920" height="1011" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
@@ -619,36 +612,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="refactoring for scala project" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ch13/sec03/repl-session.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="19" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ch13/sec02/repl-session.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-35">
-          <caret selection-end-line="25" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ch13/sec01/repl-session.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="18" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/ch12/sec10/repl-session.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1000,21 +963,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/ch06/sec05/Hello2.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="-7">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/ch08/sec03/Employee.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
+        <state relative-caret-position="-7">
           <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/ch08/sec04/Manager.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="-7">
           <caret column="18" selection-start-column="18" selection-end-column="18" />
         </state>
       </provider>
@@ -1049,29 +1012,54 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/ch08/sec13/Time.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        <state relative-caret-position="-7">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/ch08/sec10/Creature.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
+        <state relative-caret-position="-7">
           <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ch08/sec01/Employee.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+        <state relative-caret-position="-101">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch01/sec01/repl-session.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch01/sec01/AppTester.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch08/sec08/repl-session.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch08/sec01/Employee.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
