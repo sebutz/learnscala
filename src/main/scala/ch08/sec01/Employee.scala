@@ -1,3 +1,5 @@
+package ch08.sec01
+
 class Person {
   var name = ""
 }

@@ -1,3 +1,5 @@
+package ch08.sec04
+
 class Person {
   protected[this] var age = 0
   def setAge(newAge: Int) { // A person can never get younger

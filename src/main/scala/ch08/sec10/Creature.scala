@@ -1,4 +1,5 @@
 // Compile without, then with -Xcheckinit
+package ch08.sec10
 
 class Creature {
   val range: Int = 10

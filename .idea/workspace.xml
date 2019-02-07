@@ -2,347 +2,118 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f9c2e77-cff4-445e-8fa0-7752cd2a6f89" name="Default Changelist" comment="refactoring for scala project">
-      <change afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/hydra.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.project" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learnscala.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/ch01/sec01/AppTester.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch01/sec01/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch01/sec01/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch01/sec01/sheetworks.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch01/sec01/sheetworks.sc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch01/sec02/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch01/sec02/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch01/sec02/sheetworks2.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch01/sec02/sheetworks2.sc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch01/sec03/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch01/sec03/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch01/sec03/sheetworks3.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch01/sec03/sheetworks3.sc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch01/sec04/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch01/sec04/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch01/sec04/sheetworks4.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch01/sec04/sheetworks4.sc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch01/sec05/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch01/sec05/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch01/sec05/sheetworks5.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch01/sec05/sheetworks5.sc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch01/sec06/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch01/sec06/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch01/sec06/sheetworks6.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch01/sec06/sheetworks6.sc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch01/sec07/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch01/sec07/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch02/sec01/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch02/sec01/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch02/sec01/sheetworks2_1.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch02/sec01/sheetworks2_1.sc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch02/sec02/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch02/sec02/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch02/sec02/sheetworks2_2.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch02/sec02/sheetworks2_2.sc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch02/sec03/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch02/sec03/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch02/sec03/sheetwork2_3.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch02/sec03/sheetwork2_3.sc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch02/sec04/WorkObject2_4.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch02/sec04/WorkObject2_4.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch02/sec04/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch02/sec04/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch02/sec04/sheetwork2_4.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch02/sec04/sheetwork2_4.sc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch02/sec05/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch02/sec05/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch02/sec05/sheetwork2_5.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch02/sec05/sheetwork2_5.sc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch02/sec06/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch02/sec06/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch02/sec06/sheetwork2_6.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch02/sec06/sheetwork2_6.sc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch02/sec07/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch02/sec07/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch02/sec07/sheetwork2_7.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch02/sec07/sheetwork2_7.sc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch02/sec08/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch02/sec08/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch02/sec08/sheetwork2_8.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch02/sec08/sheetwork2_8.sc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch02/sec09/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch02/sec09/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch02/sec09/sheetwork2_9.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch02/sec09/sheetwork2_9.sc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch02/sec10/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch02/sec10/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch02/sec10/sheetwork2_10.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch02/sec10/sheetwork2_10.sc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch02/sec11/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch02/sec11/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch02/sec11/sheetwork2_11.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch02/sec11/sheetwork2_11.sc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch02/sec12/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch02/sec12/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch02/sec12/sheetwork2_12.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch02/sec12/sheetwork2_12.sc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch03/sec01/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch03/sec01/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch03/sec01/sheetwork3_1.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch03/sec01/sheetwork3_1.sc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch03/sec02/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch03/sec02/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch03/sec02/sheetwork3_2.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch03/sec02/sheetwork3_2.sc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch03/sec03/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch03/sec03/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch03/sec03/sheetwork3_3.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch03/sec03/sheetwork3_3.sc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch03/sec04/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch03/sec04/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch03/sec04/sheetwork3_4.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch03/sec04/sheetwork3_4.sc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch03/sec05/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch03/sec05/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch03/sec05/sheetwork3_5.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch03/sec05/sheetwork3_5.sc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch03/sec06/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch03/sec06/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch03/sec07/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch03/sec07/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch03/sec07/sheetwork3_7.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch03/sec07/sheetwork3_7.sc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch03/sec08/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch03/sec08/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch03/sec08/sheetwork3_8.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch03/sec08/sheetwork3_8.sc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch04/sec01/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch04/sec01/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch04/sec01/sheetwks4_1.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch04/sec01/sheetwks4_1.sc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch04/sec02/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch04/sec02/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch04/sec02/sheetwks4_2.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch04/sec02/sheetwks4_2.sc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch04/sec03/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch04/sec03/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch04/sec03/sheetwks4_3.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch04/sec03/sheetwks4_3.sc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch04/sec04/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch04/sec04/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch04/sec04/sheetwks4_4.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch04/sec04/sheetwks4_4.sc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch04/sec05/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch04/sec05/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch04/sec05/sheetwks4_5.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch04/sec05/sheetwks4_5.sc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch04/sec06/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch04/sec06/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch04/sec06/sheetwks4_6.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch04/sec06/sheetwks4_6.sc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch04/sec07/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch04/sec07/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch04/sec07/sheetwks4_7.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch04/sec07/sheetwks4_7.sc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch04/sec08/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch04/sec08/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch04/sec08/sheetwks4_8.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch04/sec08/sheetwks4_8.sc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch05/sec01/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch05/sec01/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch05/sec01/sheetwks5_1.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch05/sec01/sheetwks5_1.sc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch05/sec02/Person.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch05/sec02/Person.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch05/sec02/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch05/sec02/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch05/sec02/sheetwks5_2.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch05/sec02/sheetwks5_2.sc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch05/sec03/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch05/sec03/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch05/sec03/sheetwks5_3.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch05/sec03/sheetwks5_3.sc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch05/sec04/learnscala/TestApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch05/sec04/learnscala/TestApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch05/sec04/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch05/sec04/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch05/sec04/sheetwork5_4.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch05/sec04/sheetwork5_4.sc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch05/sec05/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch05/sec05/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch05/sec05/sheetwks5_5.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch05/sec05/sheetwks5_5.sc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch05/sec06/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch05/sec06/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch05/sec06/sheetwks5_6.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch05/sec06/sheetwks5_6.sc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch05/sec07/Person1.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch05/sec07/Person1.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch05/sec07/Person2.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch05/sec07/Person2.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch05/sec07/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch05/sec07/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch05/sec07/sheetwks5_7.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch05/sec07/sheetwks5_7.sc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch05/sec07/sheetwks5_7_bis.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch05/sec07/sheetwks5_7_bis.sc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch05/sec08/Network.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch05/sec08/Network.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch05/sec08/Network2.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch05/sec08/Network2.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch05/sec08/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch05/sec08/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch05/sec08/sheetwks5_8.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch05/sec08/sheetwks5_8.sc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch06/sec01/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch06/sec01/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch06/sec01/sheetwks6_1.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch06/sec01/sheetwks6_1.sc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch06/sec02/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch06/sec02/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch06/sec02/sheetworks6_2.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch06/sec02/sheetworks6_2.sc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch06/sec03/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch06/sec03/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch06/sec03/sheetwks6_3.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch06/sec03/sheetwks6_3.sc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch06/sec04/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch06/sec04/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch06/sec04/sheetwks6_4.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch06/sec04/sheetwks6_4.sc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch06/sec05/Hello.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch06/sec05/Hello.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch06/sec05/Hello1.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch06/sec05/Hello1.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch06/sec05/Hello2.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch06/sec05/Hello2.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch06/sec06/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch06/sec06/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch06/sec06/sheetwks6_6.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch06/sec06/sheetwks6_6.sc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch07/sec01/Employee.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch07/sec01/Employee.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch07/sec01/Manager.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch07/sec01/Manager.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch07/sec02/Employee.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch07/sec02/Employee.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch07/sec02/Manager.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch07/sec02/Manager.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch07/sec02/Other.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch07/sec02/Other.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch07/sec03/Person.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch07/sec03/Person.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch07/sec04/Car.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch07/sec04/Car.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch07/sec04/Person.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch07/sec04/Person.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch07/sec05/Person.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch07/sec05/Person.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch07/sec06/Person.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch07/sec06/Person.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch07/sec07/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch07/sec07/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch07/sec08/Manager.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch07/sec08/Manager.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch07/sec09/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch07/sec09/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch07/sec10/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch07/sec10/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch08/sec01/Employee.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch08/sec01/Employee.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch08/sec02/Employee.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch08/sec02/Employee.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch08/sec03/Employee.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch08/sec03/Employee.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch08/sec04/Manager.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch08/sec04/Manager.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch08/sec05/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch08/sec05/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch08/sec06/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch08/sec06/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch08/sec07/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch08/sec07/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch08/sec08/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch08/sec08/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch08/sec09/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch08/sec09/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch08/sec10/Creature.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch08/sec10/Creature.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch08/sec11/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch08/sec11/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch08/sec12/Item.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch08/sec12/Item.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch08/sec13/Time.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch08/sec13/Time.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch09/sec01/mary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch09/sec01/mary.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch09/sec01/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch09/sec01/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch09/sec02/mary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch09/sec02/mary.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch09/sec02/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch09/sec02/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch09/sec03/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch09/sec03/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch09/sec03/values.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch09/sec03/values.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch09/sec04/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch09/sec04/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch09/sec05/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch09/sec05/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch09/sec05/repl-session.zip" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch09/sec05/repl-session.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch09/sec06/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch09/sec06/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch09/sec07/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch09/sec07/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch09/sec08/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch09/sec08/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch09/sec08/test.obj" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch09/sec08/test.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch09/sec09/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch09/sec09/output.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch09/sec09/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch09/sec09/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch09/sec10/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch09/sec10/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch09/sec11/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch09/sec11/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch10/sec02/Logger.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch10/sec02/Logger.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch10/sec03/Logger.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch10/sec03/Logger.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch10/sec04/Logger.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch10/sec04/Logger.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch10/sec05/Logger.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch10/sec05/Logger.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch10/sec06/Logger.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch10/sec06/Logger.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch10/sec07/Logger.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch10/sec07/Logger.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch10/sec08/Logger.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch10/sec08/Logger.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch10/sec09/Logger.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch10/sec09/Logger.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch10/sec10/Logger.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch10/sec10/Logger.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch10/sec11/Logger.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch10/sec11/Logger.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch10/sec12/Logger.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch10/sec12/Logger.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch10/sec13/Logger.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch10/sec13/Logger.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch10/sec14/Logger.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch10/sec14/Logger.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch11/sec01/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch11/sec01/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch11/sec02/Fraction.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch11/sec02/Fraction.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch11/sec02/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch11/sec02/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch11/sec03/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch11/sec03/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch11/sec04/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch11/sec04/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch11/sec05/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch11/sec05/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch11/sec06/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch11/sec06/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch11/sec07/Fraction.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch11/sec07/Fraction.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch11/sec07/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch11/sec07/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch11/sec08/Fraction.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch11/sec08/Fraction.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch11/sec08/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch11/sec08/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch11/sec09/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch11/sec09/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch11/sec10/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch11/sec10/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch11/sec11/DynamicProps.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch11/sec11/DynamicProps.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch12/sec01/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch12/sec01/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch12/sec02/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch12/sec02/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch12/sec03/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch12/sec03/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch12/sec04/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch12/sec04/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch12/sec05/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch12/sec05/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch12/sec06/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch12/sec06/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch12/sec07/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch12/sec07/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch12/sec08/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch12/sec08/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch12/sec09/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch12/sec09/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch12/sec10/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch12/sec10/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch13/sec01/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch13/sec01/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch13/sec02/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch13/sec02/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch13/sec03/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch13/sec03/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch13/sec04/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch13/sec04/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch13/sec05/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch13/sec05/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch13/sec06/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch13/sec06/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch13/sec07/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch13/sec07/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch13/sec08/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch13/sec08/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch13/sec09/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch13/sec09/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch13/sec10/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch13/sec10/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch13/sec11/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch13/sec11/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch13/sec12/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch13/sec12/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch13/sec13/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch13/sec13/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch13/sec14/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch13/sec14/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch13/sec15/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch13/sec15/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch14/sec01/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch14/sec01/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch14/sec02/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch14/sec02/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch14/sec03/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch14/sec03/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch14/sec04/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch14/sec04/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch14/sec05/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch14/sec05/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch14/sec06/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch14/sec06/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch14/sec07/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch14/sec07/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch14/sec08/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch14/sec08/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch14/sec09/Currency.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch14/sec09/Currency.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch14/sec10/Currency.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch14/sec10/Currency.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch14/sec11/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch14/sec11/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch14/sec12/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch14/sec12/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch14/sec13/List.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch14/sec13/List.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch14/sec13/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch14/sec13/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch14/sec14/Amount.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch14/sec14/Amount.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch14/sec14/Euro.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch14/sec14/Euro.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch14/sec15/TrafficLightColor.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch14/sec15/TrafficLightColor.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch14/sec16/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch14/sec16/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch14/sec17/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch14/sec17/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch15/sec01/Credentials.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch15/sec01/Credentials.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch15/sec01/MyTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch15/sec01/MyTest.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch15/sec02/Misc.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch15/sec02/Misc.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch15/sec03/Misc.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch15/sec03/Misc.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch15/sec04/Credentials.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch15/sec04/Credentials.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch15/sec05/Book.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch15/sec05/Book.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch15/sec05/BookClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch15/sec05/BookClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch15/sec05/Employee.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch15/sec05/Employee.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch15/sec05/Fred.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch15/sec05/Fred.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch15/sec05/Person.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch15/sec05/Person.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch15/sec05/Processor.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch15/sec05/Processor.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch15/sec05/ProcessorClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch15/sec05/ProcessorClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch15/sec05/war-and-peace.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch15/sec05/war-and-peace.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch15/sec06/Misc.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch15/sec06/Misc.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch15/sec06/TailCallDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch15/sec06/TailCallDemo.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch15/sec06/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch15/sec06/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch15/sec07/Misc.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch15/sec07/Misc.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch16/sec01/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch16/sec01/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch16/sec02/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch16/sec02/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch16/sec03/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch16/sec03/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch16/sec04/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch16/sec04/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch16/sec05/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch16/sec05/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch16/sec06/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch16/sec06/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch16/sec07/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch16/sec07/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch16/sec08/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch16/sec08/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch16/sec09/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch16/sec09/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch16/sec10/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch16/sec10/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch16/sec11/Catalog.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch16/sec11/Catalog.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch16/sec11/myfile.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch16/sec11/myfile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch16/sec11/myfile.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch16/sec11/myfile.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch16/sec11/myfile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch16/sec11/myfile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch16/sec11/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch16/sec11/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch16/sec12/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch16/sec12/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch16/sec12/sample.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch16/sec12/sample.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch17/sec01/Futures.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch17/sec01/Futures.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch17/sec02/Futures.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch17/sec02/Futures.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch17/sec03/Futures.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch17/sec03/Futures.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch17/sec04/Futures.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch17/sec04/Futures.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch17/sec05/Futures1.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch17/sec05/Futures1.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch17/sec05/Futures2.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch17/sec05/Futures2.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch17/sec05/Futures3.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch17/sec05/Futures3.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch17/sec05/Futures4.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch17/sec05/Futures4.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch17/sec05/Futures5.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch17/sec05/Futures5.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch17/sec05/Futures6.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch17/sec05/Futures6.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch17/sec05/Try1.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch17/sec05/Try1.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch17/sec06/Futures.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch17/sec06/Futures.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch17/sec07/Futures.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch17/sec07/Futures.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch17/sec08/sec07/Promises.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch17/sec08/sec07/Promises.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch17/sec09/Futures1.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch17/sec09/Futures1.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch17/sec09/Futures2.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch17/sec09/Futures2.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch18/sec01/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch18/sec01/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch18/sec02/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch18/sec02/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch18/sec03/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch18/sec03/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch18/sec04/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch18/sec04/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch18/sec05/Appender.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch18/sec05/Appender.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch18/sec05/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch18/sec05/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch18/sec06/Compound.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch18/sec06/Compound.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch18/sec06/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch18/sec06/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch18/sec08/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch18/sec08/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch18/sec09/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch18/sec09/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch18/sec10/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch18/sec10/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch18/sec11/List.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch18/sec11/List.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch18/sec12/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch18/sec12/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch19/sec01/Document.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch19/sec01/Document.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch19/sec01/Document2.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch19/sec01/Document2.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch19/sec02/Network.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch19/sec02/Network.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch19/sec04/Book.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch19/sec04/Book.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch19/sec05/Appender.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch19/sec05/Appender.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch19/sec06/Compound.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch19/sec06/Compound.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch19/sec06/image.ser" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch19/sec06/image.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch19/sec07/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch19/sec07/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch19/sec08/Network.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch19/sec08/Network.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch19/sec09/Ones.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch19/sec09/Ones.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch19/sec09/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch19/sec09/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch19/sec10/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch19/sec10/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch19/sec11/CakePattern.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch19/sec11/CakePattern.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch19/sec11/users.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch19/sec11/users.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch19/sec12/Listener.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch19/sec12/Listener.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch19/sec12/Reader.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch19/sec12/Reader.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch19/sec12/Reader2.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch19/sec12/Reader2.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch19/sec12/Reader3.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch19/sec12/Reader3.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch19/sec13/Listeners1.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch19/sec13/Listeners1.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch19/sec13/Listeners2.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch19/sec13/Listeners2.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch19/sec13/Listeners3.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch19/sec13/Listeners3.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch19/sec14/Buffer.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch19/sec14/Buffer.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch20/sec02/ExprParser.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch20/sec02/ExprParser.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch20/sec03/ExprParser.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch20/sec03/ExprParser.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch20/sec04/ExprParser.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch20/sec04/ExprParser.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch20/sec05/ExprParser.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch20/sec05/ExprParser.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch20/sec06/ExprParser.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch20/sec06/ExprParser.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch20/sec06/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch20/sec06/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch20/sec07/ExprParser.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch20/sec07/ExprParser.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch20/sec07/MiscParser.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch20/sec07/MiscParser.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch20/sec08/ExprParser.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch20/sec08/ExprParser.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch20/sec09/Ones.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch20/sec09/Ones.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch20/sec12/ExprParser.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch20/sec12/ExprParser.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch20/sec12/MyParser.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch20/sec12/MyParser.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch20/sec13/MyParser.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch20/sec13/MyParser.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch21/sec01/Fraction.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch21/sec01/Fraction.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch21/sec02/RichFile.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch21/sec02/RichFile.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch21/sec02/RichFile2.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch21/sec02/RichFile2.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch21/sec03/Fraction.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch21/sec03/Fraction.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch21/sec04/Fraction.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch21/sec04/Fraction.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch21/sec04/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch21/sec04/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch21/sec05/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch21/sec05/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch21/sec06/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch21/sec06/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch21/sec07/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch21/sec07/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch21/sec08/NumberLike.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch21/sec08/NumberLike.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch21/sec09/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch21/sec09/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch21/sec10/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch21/sec10/repl-session.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch21/sec11/Buffer.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch21/sec11/Buffer.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learnscala/AppTester$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learnscala/AppTester$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learnscala/AppTester.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch06/sec05/Hello1.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch06/sec05/Hello1.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch06/sec05/Hello2.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch06/sec05/Hello2.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch07/sec07/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch07/sec07/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch07/sec09/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch07/sec09/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch07/sec10/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch07/sec10/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch08/sec01/Employee.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch08/sec01/Employee.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch08/sec02/Employee.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch08/sec02/Employee.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch08/sec03/Employee.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch08/sec03/Employee.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch08/sec04/Manager.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch08/sec04/Manager.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch08/sec05/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch08/sec05/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch08/sec06/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch08/sec06/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch08/sec07/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch08/sec07/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch08/sec08/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch08/sec08/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch08/sec09/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch08/sec09/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch08/sec10/Creature.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch08/sec10/Creature.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch08/sec11/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch08/sec11/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch09/sec01/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch09/sec01/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch09/sec02/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch09/sec02/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch09/sec03/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch09/sec03/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch09/sec04/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch09/sec04/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch09/sec05/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch09/sec05/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch09/sec06/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch09/sec06/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch09/sec07/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch09/sec07/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch09/sec08/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch09/sec08/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch09/sec09/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch09/sec09/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch09/sec10/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch09/sec10/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch09/sec11/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch09/sec11/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch11/sec01/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch11/sec01/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch11/sec02/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch11/sec02/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch11/sec03/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch11/sec03/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch11/sec04/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch11/sec04/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch11/sec05/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch11/sec05/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch11/sec06/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch11/sec06/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch11/sec07/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch11/sec07/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch11/sec08/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch11/sec08/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch11/sec09/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch11/sec09/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch11/sec10/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch11/sec10/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch12/sec01/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch12/sec01/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch12/sec02/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch12/sec02/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch12/sec03/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch12/sec03/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch12/sec04/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch12/sec04/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch12/sec05/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch12/sec05/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch12/sec06/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch12/sec06/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch12/sec07/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch12/sec07/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch12/sec08/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch12/sec08/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch12/sec09/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch12/sec09/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch12/sec10/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch12/sec10/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch13/sec01/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch13/sec01/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch13/sec02/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch13/sec02/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch13/sec03/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch13/sec03/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch13/sec04/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch13/sec04/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch13/sec05/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch13/sec05/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch13/sec06/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch13/sec06/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch13/sec07/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch13/sec07/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch13/sec08/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch13/sec08/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch13/sec09/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch13/sec09/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch13/sec10/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch13/sec10/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch13/sec11/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch13/sec11/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch13/sec12/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch13/sec12/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch13/sec13/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch13/sec13/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch13/sec14/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch13/sec14/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch13/sec15/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch13/sec15/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch14/sec01/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch14/sec01/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch14/sec02/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch14/sec02/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch14/sec03/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch14/sec03/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch14/sec04/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch14/sec04/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch14/sec05/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch14/sec05/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch14/sec06/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch14/sec06/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch14/sec07/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch14/sec07/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch14/sec08/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch14/sec08/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch14/sec11/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch14/sec11/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch14/sec12/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch14/sec12/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch14/sec16/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch14/sec16/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch14/sec17/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch14/sec17/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch15/sec06/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch15/sec06/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch16/sec01/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch16/sec01/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch16/sec02/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch16/sec02/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch16/sec03/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch16/sec03/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch16/sec04/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch16/sec04/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch16/sec05/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch16/sec05/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch16/sec06/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch16/sec06/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch16/sec07/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch16/sec07/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch16/sec08/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch16/sec08/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch16/sec09/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch16/sec09/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch16/sec10/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch16/sec10/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch16/sec11/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch16/sec11/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch16/sec12/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch16/sec12/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch17/sec06/Futures.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch17/sec06/Futures.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch18/sec01/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch18/sec01/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch18/sec02/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch18/sec02/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch18/sec03/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch18/sec03/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch18/sec04/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch18/sec04/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch18/sec05/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch18/sec05/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch18/sec06/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch18/sec06/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch18/sec08/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch18/sec08/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch18/sec09/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch18/sec09/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch18/sec10/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch18/sec10/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch18/sec12/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch18/sec12/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch19/sec07/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch19/sec07/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch19/sec09/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch19/sec09/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch19/sec10/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch19/sec10/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch20/sec06/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch20/sec06/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch21/sec04/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch21/sec04/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch21/sec05/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch21/sec05/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch21/sec06/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch21/sec06/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch21/sec07/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch21/sec07/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch21/sec09/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch21/sec09/repl-session.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch21/sec10/repl-session.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch21/sec10/repl-session.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -364,13 +135,15 @@
           <entry key="Eclipse" value="2" />
           <entry key="Git file" value="1" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="Scala" value="4" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Scala" value="126" />
           <entry key="XML" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="44" />
+          <entry key="Scala" value="157" />
         </counts>
       </usages-collector>
     </session>
@@ -378,58 +151,74 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/ch01/sec01/AppTester.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/ch08/sec01/Employee.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+            <state relative-caret-position="342">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.classpath">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/ch06/sec05/Hello2.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1" />
+            <state relative-caret-position="95">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/src/main/scala/ch08/sec03/Employee.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.project">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/learnscala.iml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/hydra.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/src/main/scala/ch08/sec04/Manager.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="18" selection-start-column="18" selection-end-column="18" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.idea/sbt.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/ch08/sec10/Creature.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+            <state relative-caret-position="19">
+              <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/ch17/sec06/Futures.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" column="40" lean-forward="true" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+              <folding>
+                <element signature="e#1#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/ch06/sec05/Hello1.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/ch08/sec02/Employee.scala">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -510,6 +299,63 @@
       </map>
     </option>
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/scala/ch13/sec13/repl-session.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ch13/sec12/repl-session.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ch13/sec11/repl-session.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ch13/sec10/repl-session.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ch13/sec09/repl-session.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ch13/sec08/repl-session.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ch13/sec07/repl-session.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ch13/sec06/repl-session.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ch13/sec05/repl-session.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ch13/sec04/repl-session.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ch13/sec03/repl-session.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ch13/sec02/repl-session.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ch13/sec01/repl-session.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ch12/sec10/repl-session.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ch12/sec09/repl-session.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ch12/sec08/repl-session.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ch12/sec07/repl-session.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ch12/sec06/repl-session.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ch12/sec05/repl-session.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ch12/sec04/repl-session.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ch12/sec03/repl-session.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ch12/sec02/repl-session.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ch12/sec01/repl-session.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ch11/sec11/DynamicProps.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ch11/sec10/repl-session.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ch11/sec09/repl-session.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ch11/sec08/repl-session.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ch11/sec07/repl-session.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ch11/sec06/repl-session.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ch11/sec05/repl-session.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ch11/sec04/repl-session.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ch11/sec03/repl-session.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ch11/sec02/repl-session.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ch11/sec01/repl-session.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ch09/sec11/repl-session.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ch09/sec10/repl-session.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ch09/sec09/repl-session.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ch09/sec08/repl-session.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ch09/sec07/repl-session.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ch09/sec06/repl-session.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ch09/sec05/repl-session.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ch09/sec04/repl-session.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ch09/sec03/repl-session.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ch09/sec02/repl-session.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ch09/sec01/repl-session.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ch17/sec06/Futures.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ch06/sec05/Hello1.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ch06/sec05/Hello2.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ch08/sec03/Employee.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ch08/sec04/Manager.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ch08/sec10/Creature.scala" />
+      </list>
+    </option>
+  </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
@@ -534,6 +380,1055 @@
               <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
               <item name="learnscala" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec01" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec02" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec01" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec02" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec01" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec02" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec01" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec02" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec01" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec02" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec02" type="462c0819:PsiDirectoryNode" />
+              <item name="Person" type="ce8f04f3:TypeDefinitionNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec05" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec01" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec01" type="462c0819:PsiDirectoryNode" />
+              <item name="Employee.scala" type="6117b065:FileNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec02" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec02" type="462c0819:PsiDirectoryNode" />
+              <item name="Employee.scala" type="6117b065:FileNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec03" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec04" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec07" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec08" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec09" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec10" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec11" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec12" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec13" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec01" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec02" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec03" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec04" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec05" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec06" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec07" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec08" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec09" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec10" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec11" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec02" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec03" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec04" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec05" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec06" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec07" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec08" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec09" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec10" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec11" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec12" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec13" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec14" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec01" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec02" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec03" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec04" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec05" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec06" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec07" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec08" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec09" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec10" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec11" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec01" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec02" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec03" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec04" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec05" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec06" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec07" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec08" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec09" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec10" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec01" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec03" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec04" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec05" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec06" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec07" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec08" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec09" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec10" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec11" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec12" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec13" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec15" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec01" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec02" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec03" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec04" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec05" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec06" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec07" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec08" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec09" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec10" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec11" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec12" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec13" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec14" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec15" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec16" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec17" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec01" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec02" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec03" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec04" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec05" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec06" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec07" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec01" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec02" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec03" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec05" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec06" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec07" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec08" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec09" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec10" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec12" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec01" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec02" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec03" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec04" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec05" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec06" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec07" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec07" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec09" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec01" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec02" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec03" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec04" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec05" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec06" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec08" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec09" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec10" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec11" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec12" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec01" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec02" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec04" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec05" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec06" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec07" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec08" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec09" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec10" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec11" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec12" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec13" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec14" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec02" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec03" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec04" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec05" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec06" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec07" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec08" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec09" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec12" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec13" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec01" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec02" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec03" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec04" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec05" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec06" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec07" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec08" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec09" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec10" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sec11" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Extensions" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+            </path>
+            <path>
+              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Extensions" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+              <item name="com.intellij.database" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -545,7 +1440,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549554230848" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549555699454" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -570,7 +1465,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AppTester">
+  <component name="RunManager" selected="Application.Main (2)">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -581,6 +1476,34 @@
       <option name="MAIN_CLASS_NAME" value="AppTester" />
       <module name="learnscala" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="ch08.sec02.Main" />
+      <module name="learnscala" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch08.sec02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="ch08.sec01.Main" />
+      <module name="learnscala" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch08.sec01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -625,11 +1548,15 @@
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.AppTester" />
+      <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Application.Main (2)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AppTester" />
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.AppTester" />
       </list>
     </recent_temporary>
   </component>
@@ -650,15 +1577,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1549552530604</updated>
-      <workItem from="1549552537562" duration="527000" />
+      <workItem from="1549552537562" duration="1878000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="527000" />
+    <option name="totallyTimeSpent" value="1878000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="1011" extended-state="6" />
+    <frame x="-1" y="23" width="1920" height="1011" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" />
@@ -666,7 +1593,7 @@
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Capture Tool" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25452608" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2539936" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="FindBugs-IDEA" />
       <window_info anchor="bottom" id="SBT Console" />
@@ -676,10 +1603,10 @@
       <window_info anchor="bottom" id="SBT Execute" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.32924107" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32924107" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32924107" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -713,7 +1640,417 @@
     <option name="LAST_COMMIT_MESSAGE" value="refactoring for scala project" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/scala/sec01/repl-session.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch13/sec09/repl-session.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="19" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch13/sec08/repl-session.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="19" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch13/sec07/repl-session.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="76" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch13/sec06/repl-session.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="23" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch13/sec05/repl-session.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="23" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch13/sec04/repl-session.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="24" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch13/sec03/repl-session.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="19" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch13/sec02/repl-session.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-35">
+          <caret selection-end-line="25" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch13/sec01/repl-session.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="18" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch12/sec10/repl-session.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="39" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch12/sec09/repl-session.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="33" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch12/sec08/repl-session.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="16" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch12/sec07/repl-session.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="35" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch12/sec06/repl-session.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="10" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch12/sec05/repl-session.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="11" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch12/sec04/repl-session.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="12" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch12/sec03/repl-session.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="15" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch12/sec02/repl-session.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="12" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch12/sec01/repl-session.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="11" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch11/sec11/DynamicProps.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="25" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch11/sec10/repl-session.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="15" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch11/sec09/repl-session.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="42" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch11/sec08/repl-session.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="33" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch11/sec07/repl-session.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="8" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch11/sec06/repl-session.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="27" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch11/sec05/repl-session.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="19" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch11/sec04/repl-session.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="15" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch11/sec03/repl-session.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="7" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch11/sec02/repl-session.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="10" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch11/sec01/repl-session.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="11" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch09/sec11/repl-session.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="12" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch09/sec10/repl-session.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="33" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch09/sec09/repl-session.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="25" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch09/sec08/repl-session.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="30" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch09/sec07/repl-session.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="13" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch09/sec06/repl-session.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="8" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch09/sec05/repl-session.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="12" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch09/sec04/repl-session.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="14" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch09/sec03/values.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch09/sec03/repl-session.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="13" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch09/sec02/repl-session.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="27" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch09/sec01/repl-session.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="20" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch08/sec11/repl-session.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
@@ -722,54 +2059,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/sec01/AppTester.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch17/sec06/Futures.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="7" selection-start-column="7" selection-end-column="7" />
+        <state relative-caret-position="57">
+          <caret line="3" column="40" lean-forward="true" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+          <folding>
+            <element signature="e#1#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch06/sec05/Hello1.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch08/sec02/Employee.scala">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/ch08/sec01/Employee.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="342">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ch01/sec01/AppTester.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.classpath">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.project">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learnscala.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/hydra.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/sbt.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch06/sec05/Hello2.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
-          <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch08/sec03/Employee.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch08/sec04/Manager.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch08/sec10/Creature.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
         </state>
       </provider>
     </entry>

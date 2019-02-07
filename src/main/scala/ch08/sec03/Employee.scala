@@ -1,3 +1,4 @@
+package ch08.sec03
 class Person {
   var name = ""
   override def toString = getClass.getName + "[name=" + name + "]"
