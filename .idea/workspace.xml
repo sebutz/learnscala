@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f9c2e77-cff4-445e-8fa0-7752cd2a6f89" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/oopwks1.sc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnscala.iml" beforeDir="false" afterPath="$PROJECT_DIR$/learnscala.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ch08/sec13/Time.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ch08/sec13/Time.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,35 +12,8 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-658733279">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="Eclipse" value="2" />
-          <entry key="Git file" value="2" />
-          <entry key="IDEA_MODULE" value="1" />
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Scala" value="144" />
-          <entry key="XML" value="4" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="Git file" value="17" />
-          <entry key="PLAIN_TEXT" value="44" />
-          <entry key="Scala" value="277" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/ch02/sec02/repl-session.scala">
           <provider selected="true" editor-type-id="text-editor">
@@ -53,98 +25,59 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/ch08/sec02/Employee.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+            <state relative-caret-position="253">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/oopwks1.sc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="545">
+              <caret line="35" column="79" selection-start-line="35" selection-start-column="79" selection-end-line="35" selection-end-column="79" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/ch01/sec01/AppTester.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Scala Worksheet" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Point</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/src</dir>
+    </dirStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GradleLocalSettings">
-    <option name="modificationStamps">
-      <map>
-        <entry key="$USER_HOME$/dig bata/rapidminer/rapidminer-studio-master" value="1494385790000" />
-      </map>
-    </option>
-    <option name="projectSyncType">
-      <map>
-        <entry key="$USER_HOME$/Documents/Backups/vw-product-etl" value="PREVIEW" />
-        <entry key="$USER_HOME$/Downloads/Spring-Boot-2.0-Cookbook-Second-Edition-master" value="PREVIEW" />
-        <entry key="$USER_HOME$/Downloads/Spring-Boot-2.0-Cookbook-Second-Edition-master/Chapter06/ch6" value="PREVIEW" />
-        <entry key="$USER_HOME$/Downloads/Spring-Boot-2.0-Cookbook-Second-Edition-master/Chapter09/ch9" value="PREVIEW" />
-        <entry key="$USER_HOME$/Downloads/feign-master" value="PREVIEW" />
-        <entry key="$USER_HOME$/Downloads/java_8_recipes-master" value="PREVIEW" />
-        <entry key="$USER_HOME$/Downloads/mastering-junit5-master/junit5-wiremock" value="PREVIEW" />
-        <entry key="$USER_HOME$/apis/localization-finder-master" value="PREVIEW" />
-        <entry key="$USER_HOME$/code_reviews/vw-cc-broker-consumer-library" value="PREVIEW" />
-        <entry key="$USER_HOME$/mongo/spring5-mongo-recipe-app-master" value="PREVIEW" />
-        <entry key="$USER_HOME$/mongo/spring5-reactive-mongo-recipe-app-master" value="PREVIEW" />
-        <entry key="$USER_HOME$/mongo/springboot-mvc-data-mongodb-master" value="PREVIEW" />
-        <entry key="$USER_HOME$/mulesoft/vw-product-api2" value="PREVIEW" />
-        <entry key="$USER_HOME$/newprojects/vw-offers-api" value="PREVIEW" />
-        <entry key="$USER_HOME$/pdmsource/vw-product-etl-model-processor" value="PREVIEW" />
-        <entry key="$USER_HOME$/project/vw-configurator-api2" value="PREVIEW" />
-        <entry key="$USER_HOME$/project/vw-product-api2" value="PREVIEW" />
-        <entry key="$USER_HOME$/project/vw-product-etl" value="PREVIEW" />
-        <entry key="$USER_HOME$/project/vw-product-etl-data-validator" value="PREVIEW" />
-        <entry key="$USER_HOME$/project/vw-product-etl-model-processor" value="PREVIEW" />
-        <entry key="$USER_HOME$/project/vw-product-etl-trim-processor" value="PREVIEW" />
-        <entry key="$USER_HOME$/project/vw-product-etl/vw-product-etl-car-data-archive-player" value="PREVIEW" />
-        <entry key="$USER_HOME$/project/vw-retailer-api" value="PREVIEW" />
-        <entry key="$USER_HOME$/project/vw-rms-api" value="PREVIEW" />
-        <entry key="$USER_HOME$/project_bak/vw-retailer-api" value="PREVIEW" />
-        <entry key="$USER_HOME$/projecto/vw-retailer-api" value="PREVIEW" />
-        <entry key="$USER_HOME$/projects/vw/service/vw-retailer-api" value="PREVIEW" />
-        <entry key="$USER_HOME$/projects/vw/service/vw-user-api" value="PREVIEW" />
-        <entry key="$USER_HOME$/projects/vw/ums/vw-rcms-ums" value="PREVIEW" />
-        <entry key="$USER_HOME$/projectsold/vw-retailer-api" value="PREVIEW" />
-        <entry key="$USER_HOME$/sofaboot/vw-product-api2" value="PREVIEW" />
-        <entry key="$USER_HOME$/sofaothers/vw-product-api2" value="PREVIEW" />
-        <entry key="$USER_HOME$/springalternative/vw-configurator-api2" value="PREVIEW" />
-        <entry key="$USER_HOME$/springgg/vw-configurator-api2" value="PREVIEW" />
-        <entry key="$USER_HOME$/springk/vw-agent" value="PREVIEW" />
-        <entry key="$USER_HOME$/springkampf/vw-agent" value="PREVIEW" />
-        <entry key="$USER_HOME$/springkampf/vw-cc-broker-consumer-library" value="PREVIEW" />
-        <entry key="$USER_HOME$/springkampf/vw-configurator-api2" value="PREVIEW" />
-        <entry key="$USER_HOME$/springkampf/vw-product-etl" value="PREVIEW" />
-        <entry key="$USER_HOME$/springkampf/vw-product-etl-model-processor" value="PREVIEW" />
-        <entry key="$USER_HOME$/springkampf2/vw-configurator-api2" value="PREVIEW" />
-        <entry key="$USER_HOME$/springmein2/vw-agent" value="PREVIEW" />
-        <entry key="$USER_HOME$/springmein3/vw-agent" value="PREVIEW" />
-        <entry key="$USER_HOME$/springmein4/vw-agent" value="PREVIEW" />
-        <entry key="$USER_HOME$/springmein4/vw-configurator-api2" value="PREVIEW" />
-        <entry key="$USER_HOME$/springspike/spring-state-machine" value="PREVIEW" />
-        <entry key="$USER_HOME$/springspike/spring-statemachine-1.2.8.RELEASE" value="PREVIEW" />
-        <entry key="$USER_HOME$/springspike/spring-statemachine-1.2.x" value="PREVIEW" />
-        <entry key="$USER_HOME$/springspike/spring-statemachine-master" value="PREVIEW" />
-        <entry key="$USER_HOME$/springsummer" value="PREVIEW" />
-        <entry key="$USER_HOME$/springsummer/vw-configurator-api2" value="PREVIEW" />
-        <entry key="$USER_HOME$/springwip/vw-configurator-api2" value="PREVIEW" />
-        <entry key="$USER_HOME$/springwizard/vw-configurator-api2" value="PREVIEW" />
-        <entry key="$USER_HOME$/springworks/vw-cc-broker-consumer-library" value="PREVIEW" />
-        <entry key="$USER_HOME$/springworks/vw-configurator-api2" value="PREVIEW" />
-        <entry key="$USER_HOME$/springworks/vw-product-api2" value="PREVIEW" />
-        <entry key="$USER_HOME$/springworkz/vw-configurator-api2" value="PREVIEW" />
-        <entry key="$USER_HOME$/springworkz/vw-product-etl-data-validator" value="PREVIEW" />
-        <entry key="$USER_HOME$/springy/vw-configurator-api2" value="PREVIEW" />
-        <entry key="$USER_HOME$/springzwip2/vw-configurator-api2" value="PREVIEW" />
-        <entry key="$USER_HOME$/testproject/vw-part-exchange-api" value="PREVIEW" />
-        <entry key="$USER_HOME$/testproject/vw-retailer-api" value="PREVIEW" />
-      </map>
-    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/scala/ch13/sec08/repl-session.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/ch13/sec07/repl-session.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/ch13/sec06/repl-session.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/ch13/sec05/repl-session.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/ch13/sec04/repl-session.scala" />
@@ -194,66 +127,29 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/scala/ch08/sec01/Employee.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/ch08/sec13/Time.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ch08/sec02/Employee.scala" />
+        <option value="$PROJECT_DIR$/src/oopwks1.sc" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="3" />
-    <option name="y" value="23" />
-    <option name="width" value="1920" />
-    <option name="height" value="1011" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="2" />
+    <option name="y" value="24" />
+    <option name="width" value="1900" />
+    <option name="height" value="1008" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <autoscrollFromSource ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-              <item name="Extensions" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
-            </path>
-            <path>
-              <item name="learnscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-              <item name="Extensions" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
-              <item name="com.intellij.database" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549557703317" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549618019733" />
+    <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -279,7 +175,7 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.Main (1)">
-    <configuration default="true" type="Applet" factoryName="Applet">
+    <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -350,12 +246,13 @@
       </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
+    <configuration default="true" type="TestNG">
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <properties />
       <listeners />
@@ -363,11 +260,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
+      <predefined_log_file enabled="true" id="idea.log" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -406,7 +303,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1549552530604</updated>
-      <workItem from="1549552537562" duration="3778000" />
+      <workItem from="1549552537562" duration="3858000" />
+      <workItem from="1549614293830" duration="1446000" />
+      <workItem from="1549616415791" duration="2198000" />
     </task>
     <task id="LOCAL-00001" summary="refactoring for scala project">
       <created>1549556555335</created>
@@ -419,352 +318,94 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3778000" />
+    <option name="totallyTimeSpent" value="7502000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="3" y="23" width="1920" height="1011" extended-state="0" />
+    <frame x="0" y="23" width="1920" height="1011" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Capture Tool" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2539936" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25346112" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="FindBugs-IDEA" />
-      <window_info anchor="bottom" id="SBT Console" />
-      <window_info anchor="bottom" id="Terminal" weight="0.42299107" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Regex Tester" />
-      <window_info anchor="bottom" id="SBT Execute" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Messages" weight="0.32924107" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3549107" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3549107" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Maven-2 Build" />
-      <window_info anchor="right" id="JSON Viewer" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="JSON Utils" />
-      <window_info anchor="right" id="Mongo Explorer" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Json Parser" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="right" id="ReST Console" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Jenkins" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
+      <window_info anchor="bottom" id="SBT Console" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.42299107" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Regex Tester" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="SBT Execute" order="14" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.328125" />
+      <window_info anchor="right" id="Maven" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven-2 Build" order="4" />
+      <window_info anchor="right" id="JSON Viewer" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="JSON Utils" order="7" />
+      <window_info anchor="right" id="Mongo Explorer" order="8" />
+      <window_info anchor="right" id="Database" order="9" />
+      <window_info anchor="right" id="ReST Console" order="10" />
+      <window_info anchor="right" id="Json Parser" order="11" />
+      <window_info anchor="right" id="Maven Projects" order="12" />
+      <window_info anchor="right" id="Jenkins" order="13" />
+      <window_info anchor="right" id="Palette&#9;" order="14" />
+      <window_info anchor="right" id="Theme Preview" order="15" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="refactoring for scala project" />
     <option name="LAST_COMMIT_MESSAGE" value="refactoring for scala project" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ch12/sec05/repl-session.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="11" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ch12/sec04/repl-session.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="12" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ch12/sec03/repl-session.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="15" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ch12/sec02/repl-session.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="12" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ch12/sec01/repl-session.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="11" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ch11/sec11/DynamicProps.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="25" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ch11/sec10/repl-session.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="15" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ch11/sec09/repl-session.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="42" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ch11/sec08/repl-session.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="33" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ch11/sec07/repl-session.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="8" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ch11/sec06/repl-session.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="27" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ch11/sec05/repl-session.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="19" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ch11/sec04/repl-session.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="15" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ch11/sec03/repl-session.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="7" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ch11/sec02/repl-session.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="10" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ch11/sec01/repl-session.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="11" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ch09/sec11/repl-session.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="12" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ch09/sec10/repl-session.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="33" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ch09/sec09/repl-session.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="25" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ch09/sec08/repl-session.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="30" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ch09/sec07/repl-session.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="13" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ch09/sec06/repl-session.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="8" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ch09/sec05/repl-session.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="12" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ch09/sec04/repl-session.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="14" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ch09/sec03/values.txt">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch12/sec04/repl-session.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch12/sec03/repl-session.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch12/sec02/repl-session.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch12/sec01/repl-session.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch11/sec11/DynamicProps.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch11/sec10/repl-session.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch11/sec09/repl-session.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch11/sec08/repl-session.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch11/sec07/repl-session.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch11/sec06/repl-session.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch11/sec05/repl-session.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch11/sec04/repl-session.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch11/sec03/repl-session.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch11/sec02/repl-session.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch11/sec01/repl-session.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch09/sec11/repl-session.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch09/sec10/repl-session.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch09/sec09/repl-session.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch09/sec08/repl-session.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch09/sec07/repl-session.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch09/sec06/repl-session.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch09/sec05/repl-session.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch09/sec04/repl-session.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch09/sec03/values.txt" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch09/sec03/repl-session.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch09/sec02/repl-session.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch09/sec01/repl-session.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch08/sec11/repl-session.scala">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ch09/sec03/repl-session.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="13" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ch09/sec02/repl-session.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="27" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ch09/sec01/repl-session.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="20" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ch08/sec11/repl-session.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ch17/sec06/Futures.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="40" lean-forward="true" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
-          <folding>
-            <element signature="e#1#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch17/sec06/Futures.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/ch06/sec05/Hello2.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-7">
@@ -786,34 +427,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ch07/sec02/Manager.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" selection-start-column="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ch10/sec08/Logger.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="3" selection-start-column="3" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ch07/sec02/Employee.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ch07/sec04/Person.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="3" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch07/sec02/Manager.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch10/sec08/Logger.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch07/sec02/Employee.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch07/sec04/Person.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/ch08/sec10/Creature.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="158">
@@ -821,21 +438,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ch01/sec01/AppTester.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/ch08/sec08/repl-session.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/ch03/sec01/repl-session.scala">
       <provider selected="true" editor-type-id="text-editor">
@@ -911,8 +515,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/ch08/sec02/Employee.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+        <state relative-caret-position="253">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch01/sec01/AppTester.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/oopwks1.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="545">
+          <caret line="35" column="79" selection-start-line="35" selection-start-column="79" selection-end-line="35" selection-end-column="79" />
         </state>
       </provider>
     </entry>
@@ -974,6 +592,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
